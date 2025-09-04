@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: '/Server/', // 修改路徑
+  base: '/vue_practice_20250905/', // 修改路徑
   plugins: [
     vue(),
     vueDevTools(),
